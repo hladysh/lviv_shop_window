@@ -74,11 +74,6 @@ grid
 	box-sizing: border-box;
 }
 
-
-/*.grid {
-    margin-bottom: 30px;
-}*/
-
 .grid:after,
 .col-md-12:after {
 	content: "";
@@ -407,7 +402,6 @@ offer
 
 .window_standart {
 	float: left;
-	/*display: inline-block;*/
 	text-align: left;
 }
 
