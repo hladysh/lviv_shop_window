@@ -10,8 +10,6 @@
       });
     });
 
-
-
     $('.slider_offer').slick({
       infinite: true,
       slidesToShow: 4,
