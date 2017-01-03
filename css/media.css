@@ -312,9 +312,10 @@
 		margin-right: 10px;
 	}
 	.advantages .col-md-3 {
-		width: 100%;
-		min-height: 170px;
-		padding: 0 20px;
+	    width: 100%;
+	    min-height: 100px;
+	    padding: 0 20px;
+	    margin-bottom: 40px;
 	}
 	.advantages .col-md-12 p {
 		width: 92%;
