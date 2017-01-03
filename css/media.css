@@ -319,4 +319,13 @@
 	.advantages .col-md-12 p {
 		width: 92%;
 	}
+	.count_days, .count_minutes, .count_hours, .count_seconds {
+		margin-right: 10px;
+	}
+	.content_timer {
+		font-size: 26px;
+	}
+	.warm {
+		padding: 0;
+	}
 }
