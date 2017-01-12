@@ -88,18 +88,18 @@
 });
 
 	function initialize() {
-    var haightAshbury = new google.maps.LatLng(49.8340064,23.9780386);//(долгота, широта)
+    var haightAshbury = new google.maps.LatLng(49.8340064,23.9780386);
     var mapOptions = {
-        zoom: 15,//масштаб
-        center: haightAshbury,//позиционируем карту на заданые координаты
-        // mapTypeId: google.maps.MapTypeId.TERRAIN,//задаем тип карты
+        zoom: 15,
+        center: haightAshbury,
+        // mapTypeId: google.maps.MapTypeId.TERRAIN,
         scrollwheel: false,
 	    navigationControl: false,
 	    mapTypeControl: false,
 	    scaleControl: false,
 	    // draggable: false
     };    
-    map = new google.maps.Map(document.getElementById("map"), mapOptions);//инициализация карты
+    map = new google.maps.Map(document.getElementById("map"), mapOptions);
  
     google.maps.event.addListener(map, 'click', function (event) {
         addMarker(event.latLng);
