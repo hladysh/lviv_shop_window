@@ -20,6 +20,12 @@
 	.warm h3 {
 		font-size: 25px;
 	}
+/*	.slick-next {
+		right: -5%;
+	}
+	.slick-prev {
+		left: -5%;
+	}*/
 }
 
 
@@ -34,7 +40,7 @@
 	}
 	nav ul li a {
 		font-size: 15px;
-	}
+	}	
 	.slick-next {
 		right: -2%;
 	}
@@ -99,20 +105,22 @@
 		width: 760px;
 	}
 	.warm h1 {
-		font-size: 25px;
+	    font-size: 25px;
+
 	}
 	.warm h3 {
 		font-size: 18px;
-		line-height: 25px;
+		 line-height: 25px;
 	}
-	.warm h3 span {
+	.warm h3  span {
 		font-size: 26px;
 	}
 	.header_contact {
-		padding: 10px;
-		height: 365px;
-		width: 260px;
+	    padding: 10px;
+	    height: 365px;
+	    width: 260px;
 	}
+
 }
 
 
@@ -145,7 +153,7 @@
 	}
 	nav ul li a {
 		font-size: 15px;
-		line-height: 30px;
+    	line-height: 30px;
 	}
 	nav ul li:last-child {
 		margin-left: 22px;
@@ -220,7 +228,7 @@
 	.advantages_h2 {
 		margin: 25px 0 35px 0;
 	}
-	.header_slider {
+	.header_slider{
 		min-height: 480px;
 	}
 	.warm {
@@ -241,14 +249,15 @@
 	.top_address li {
 		margin-right: 90px;
 	}
-	.header_contact h3 {
+
+	.header_contact h3{
 		font-size: 18px;
-		margin-bottom: 15px;
+   		margin-bottom: 15px;
 	}
 	.header_contact p {
-		font-size: 15px;
-		line-height: 16px;
-		margin-bottom: 15px;
+	    font-size: 15px;
+	    line-height: 16px;
+	    margin-bottom: 15px;
 	}
 	.warm {
 		padding-bottom: 30px;
@@ -307,17 +316,13 @@
 	}
 	.advantages .col-md-3 {
 		width: 100%;
-		min-height: 100px;
-		padding: 0 20px;
-		margin-bottom: 40px;
+		min-height: 170px;
+		padding: 0 60px;
 	}
 	.advantages .col-md-12 p {
 		width: 92%;
 	}
-	.count_days,
-	.count_minutes,
-	.count_hours,
-	.count_seconds {
+	.count_days, .count_minutes, .count_hours, .count_seconds {
 		margin-right: 10px;
 	}
 	.content_timer {
