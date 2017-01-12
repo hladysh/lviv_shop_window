@@ -1,4 +1,5 @@
 body {
+	color: #131313;
 	font-family: 'Exo 2', sans-serif;
 }
 
@@ -19,8 +20,6 @@ grid
 
 .container {
 	width: 1170px;
-	/*	padding-right: 15px;
-    padding-left: 15px;*/
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -141,7 +140,6 @@ header
 }
 
 .top_address li span {
-	color: #131313;
 	font-size: 16px;
 	line-height: 45px;
 	font-weight: 300;
@@ -338,11 +336,6 @@ header_slider
 /* ==========================================================================
 offer
 ========================================================================== */
-
-.offer_h2 {
-	color: #131313;
-}
-
 .offer_top_text {
 	text-align: right;
 }
@@ -429,7 +422,6 @@ offer
 
 .window_standart span {
 	display: block;
-	color: #131313;
 	font-size: 20px;
 }
 
@@ -672,15 +664,15 @@ five_steps
 	font-size: 614px;
 	font-family: 'Tw Cen MT Condensed', sans-serif;
 	margin: 5% 0 0 17%;
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
 .steps_text_left {
-	color: #131313;
 	float: left;
 	margin: 59% 0 0 22%;
 	font-weight: 300;
@@ -702,10 +694,11 @@ five_steps
 }
 
 .steps_item_wrap p {
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-bottom: 50px;
 	color: #248f40;
@@ -722,10 +715,234 @@ five_steps
 .five_steps .center {
 	text-align: center;
 }
-.btn_five_steps {
+.btn_five_steps{
 	width: 270px;
 }
 /* ==========================================================================
 reviews
 ========================================================================== */
 
+.reviews .review_item{
+	margin: 0 auto;
+}
+.review_item {
+	width: 83.33333333%;
+
+}
+.review_item img {
+	float: left;
+	height: 100%;
+	margin-top: 20px;
+	outline: 4px solid #248f40;
+	outline-offset: -9px;
+}
+.review_content {
+	position: relative;
+	padding: 10px 20px 15px 60px;
+	margin-left: 14%;
+	margin-bottom: 50px;
+	font-size: 16px;
+	border: 4px solid #cecece;
+	z-index: -1;
+
+}
+.review_content h5 {
+	/*color: #131313;*/
+	font-weight: 700;
+	line-height: 30px;
+}
+.review_content a {
+	color: #248f40;
+	font-style: italic;
+}
+.review_content p {
+	margin-top: 20px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.content_right img {
+	float: right;
+}
+.content_right .review_content {
+	padding: 10px 60px 15px 20px;
+	margin-right: 14%;
+	margin-left: 0;
+}
+/* ==========================================================================
+advice_news
+========================================================================== */
+.advice_news {
+	min-height: 550px;
+	background-color: #eaeceb;
+	clear: both;
+}
+.advice_news [class*='col-']:last-of-type {
+	padding-right: 20px;
+}
+.advice_news .slick-dots {
+	bottom: -110px;
+}
+.news_item h4{
+	color: #248f40;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 500;
+}
+.news_item p {
+	/*color: #131313;*/
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 22px;
+	margin: 20px 0 15px 0;
+}
+.news_item a,
+.text_wrap a  {
+	color: #767676;
+	font-size: 14px;
+	float: right;
+}
+.news_item a:hover,
+.text_wrap a:hover  {
+	color: #248f40;
+}
+/* ==========================================================================
+contact
+========================================================================== */
+.name_section {
+	min-height: 250px;
+	clear: both;
+}
+.text_wrap {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.text_wrap p{
+	font-size: 18px;
+	font-weight: 300;
+}
+.text_wrap a {
+	margin-bottom: 50px;
+}
+#map_contact {
+	position: relative;
+	min-height: 400px;
+}
+#map {
+	width: 100%;
+	height: 410px;
+	position: relative;
+}
+section .contacts_map h2:before {
+	color: #fff;
+}
+.contacts_map {
+	color: #fff;
+	position: absolute;
+	width: 33.33333333%;
+	min-height: 410px;
+	top: 0;
+	left: 60%;
+	padding: 40px 32px 20px 32px;
+	font-size: 18px;
+	font-weight: 300;
+	background-color: rgba(64,62,62, 0.8);
+}
+.contacts_map h2{
+	margin: 0;
+	text-align: left;
+}
+.contacts_map h4 {
+	margin: 25px 0 ;
+}
+.contacts_map p {
+	line-height: 25px;
+}
+.btn_contacts_map {
+	margin: 20px 0 25px;
+}
+.icon_contact {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	margin: 10px 20px 0 0;
+	background: url(../img/sprits.png) no-repeat;
+	background-position: 0px -227px;
+	cursor: pointer;
+}
+.vk {
+	background-position: -43px -227px;
+}
+.instagram {
+	background-position: -83px -227px;
+}
+.instagram:hover{
+	background-position: -83px -237px;
+}
+.google_plus {
+	background-position: -124px -227px;
+}
+
+/* ==========================================================================
+partners
+========================================================================== */
+.slider_partners {
+	margin-bottom: 50px;
+}
+.partners_img_wrap {
+	text-align: center;
+	 height: 180px;
+    position: relative;
+}
+.partners_img_wrap img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+.become_partner {
+	width: 97%;
+	height: 170px;
+	padding: 30px 0;
+	margin: 0 auto;
+	border: 2px solid #248f40;
+}
+.become_partner h3 {
+	color: #248f40;
+	float: left;
+	margin-right: 10px;
+	font-size: 36px;
+	font-weight: 500;
+}
+.become_partner a {
+	color: #248f40;
+	font-size: 30px;
+	font-weight: 300;
+	border-bottom:1px dashed #248f40;
+}
+.btn_partners {
+	width: 260px;
+	margin-top: 30px;
+	margin-left: 60%;
+
+}
+/* ==========================================================================
+footer
+========================================================================== */
+footer {
+	margin: 38px 0 20px 0;
+	font-size: 18px;
+	font-weight: 300px;
+}
+footer p {
+	float: left;
+}
+footer a {
+	color: #131313;
+	float: right;
+	text-transform: uppercase;
+}
+footer a:hover {
+	color: #248f40;
+}
