@@ -1278,12 +1278,11 @@ contact
 section .contacts_map h2:before {
   color: #fff;
 }
-
 .contacts_map {
   color: #fff;
   position: absolute;
   width: 33.33333333%;
-  min-height: 410px;
+  min-height: 350px;
   top: 0;
   right: 0;
   padding: 40px 32px 20px 32px;

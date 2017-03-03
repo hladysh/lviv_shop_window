@@ -41,9 +41,18 @@
     border: none;
     outline: none;
     /*background: transparent;*/
-    background:url(../img/sprits.png)no-repeat center center;
-    background-position: -49px -2px;
+    /*background:url(../img/sprits.png)no-repeat center center;*/
+     background: rgba(0, 0, 0, 0.3) url(../img/sprits.png) no-repeat;
+     background-position: -174px -240px;
 }
+
+.slick-prev:hover {
+    background-position: -51px -4px;
+    /*transition: all 0.1s;*/
+    }
+    .slick-next:hover {
+        background-position: -112px -4px;
+    }
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -101,7 +110,7 @@
 .slick-next
 {
     right: -70px;
-    background-position: -111px -2px;
+    background-position: -242px -240px;
 }
 [dir='rtl'] .slick-next
 {
